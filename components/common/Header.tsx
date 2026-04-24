@@ -5,7 +5,7 @@ import logo from "@/assets/_images/logo.svg";
 export default function Header() {
 
     return(
-        <header className="flex justify-between items-center bg-white p-4 h-23.75 fixed w-full z-10">
+        <header className="hidden md:flex justify-between items-center bg-white p-4 h-23.75 fixed w-full z-10">
             <Link href="/">
                 <Image src={logo} 
                         alt="Logo" 

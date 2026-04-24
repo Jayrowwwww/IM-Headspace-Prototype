@@ -9,7 +9,7 @@ export default function Footer(){
 
     return(
         <footer className="flex flex-col min-h-[87vh] h-full font-lgc tracking-wider bg-white text-[#5A6175] p-8 justify-center items-center">
-            <div className="flex justify-between items-start w-full max-w-7xl">
+            <div className="flex flex-col md:flex-row gap-5 justify-between items-start w-full max-w-7xl">
                 <div className="flex-col flex">
                     <h1 className="font-bold">
                         GET SOME HEADSPACE
@@ -114,7 +114,7 @@ export default function Footer(){
                         <FontAwesomeIcon icon={faLinkedin}/>
                     </div>
                 </div>
-                <div className="flex gap-5 tracking-widest">
+                <div className="flex flex-col md:flex-row gap-5 tracking-widest">
                     <h1>
                         © 2026 HEADSPACE INC.
                     </h1>
